@@ -17,7 +17,7 @@
 		<dependency rev="4.10.0" org="com.cedarsoftware" name="json-io" />
 		<dependency rev="2.6" org="commons-io" name="commons-io" />
 		<dependency rev="3.6" org="commons-net" name="commons-net" />
-		<dependency rev="1.7.25" org="org.slf4j" name="slf4j-jdk14" />
+		<dependency rev="1.7.25" org="org.slf4j" name="slf4j-api" />
 		<dependency rev="1.10.0" org="net.java.dev.glazedlists" name="glazedlists_java16" />
 		<dependency rev="5.2" org="com.miglayout" name="miglayout-swing" />
 		<dependency rev="2.2" org="org.apache.commons" name="commons-vfs2" />
@@ -37,6 +37,8 @@
 
 		<!-- JavaFX -->
 		<dependency rev="9.0.0" org="org.controlsfx" name="controlsfx" />
+		<dependency rev="11.0.2" org="org.openjfx" name="javafx-graphics" />
+		<dependency rev="11.0.2" org="org.openjfx" name="javafx-controls" />
 
 
 		<!-- Apache Groovy -->
